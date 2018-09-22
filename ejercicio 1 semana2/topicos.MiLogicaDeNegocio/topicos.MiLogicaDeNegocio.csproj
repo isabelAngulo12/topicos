@@ -73,6 +73,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Logica\accion\" />
+    <Folder Include="Logica\especificacion\" />
+    <Folder Include="Logica\interfaz\" />
+    <Folder Include="Logica\repositorio\" />
+    <Folder Include="Logica\servicio\" />
+    <Folder Include="Logica\validacion\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
