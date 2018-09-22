@@ -61,23 +61,21 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Service1.svc" />
+    <Content Include="Logica\servicio\Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service1.svc.cs">
+    <Compile Include="Logica\servicio\Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
-    <Compile Include="IService1.cs" />
+    <Compile Include="Logica\interfaz\IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Logica\accion\" />
     <Folder Include="Logica\especificacion\" />
-    <Folder Include="Logica\interfaz\" />
     <Folder Include="Logica\repositorio\" />
-    <Folder Include="Logica\servicio\" />
     <Folder Include="Logica\validacion\" />
   </ItemGroup>
   <ItemGroup>
